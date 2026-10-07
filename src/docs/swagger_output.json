@@ -11,7 +11,7 @@
       "description": "Local Server"
     },
     {
-      "url": "",
+      "url": "https://backend-acara-olive-delta.vercel.app/api",
       "description": "Production Server"
     }
   ],
@@ -70,20 +70,9 @@
           }
         },
         "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "identifier": {
-                    "example": "any"
-                  },
-                  "password": {
-                    "example": "any"
-                  }
-                }
-              }
-            }
+          "required": true,
+          "shema": {
+            "$ref": "#/components/schemas/LoginRequest"
           }
         }
       }
@@ -101,7 +90,12 @@
           "403": {
             "description": "Forbidden"
           }
-        }
+        },
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ]
       }
     }
   },
