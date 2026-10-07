@@ -12,7 +12,7 @@ const doc = {
       description: "Local Server",
     },
     {
-      url: "",
+      url: "https://backend-acara-olive-delta.vercel.app/api",
       description: "Production Server",
     },
   ],
