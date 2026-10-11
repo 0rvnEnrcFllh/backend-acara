@@ -28,6 +28,20 @@ const doc = {
         identifier: "orvnenrcfllh",
         password: "rahasia123",
       },
+      RegisterRequest: {
+        fullName: "Orvn Dev",
+
+        username: "orvndev360",
+
+        email: "orvn.dev360@yopmail.com",
+
+        password: "Dev123",
+
+        confirmPassword: "Dev123",
+      },
+      ActivationRequest: {
+        code: "abcdef",
+      },
     },
   },
 };
