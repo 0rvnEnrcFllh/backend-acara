@@ -25,8 +25,8 @@ const doc = {
     },
     schemas: {
       LoginRequest: {
-        identifier: "orvnenrcfllh",
-        password: "rahasia123",
+        identifier: "orvndev360",
+        password: "Dev123!",
       },
       RegisterRequest: {
         fullName: "Orvn Dev",
@@ -35,12 +35,12 @@ const doc = {
 
         email: "orvn.dev360@yopmail.com",
 
-        password: "Dev123",
+        password: "Dev123!",
 
-        confirmPassword: "Dev123",
+        confirmPassword: "Dev123!",
       },
       ActivationRequest: {
-        code: "abcdef",
+        code: "xxxxxx",
       },
     },
   },

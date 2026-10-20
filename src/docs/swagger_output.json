@@ -135,6 +135,19 @@
           }
         }
       }
+    },
+    "/test-acl": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -150,11 +163,11 @@
         "properties": {
           "identifier": {
             "type": "string",
-            "example": "orvnenrcfllh"
+            "example": "orvndev360"
           },
           "password": {
             "type": "string",
-            "example": "rahasia123"
+            "example": "Dev123!"
           }
         },
         "xml": {
@@ -178,11 +191,11 @@
           },
           "password": {
             "type": "string",
-            "example": "Dev123"
+            "example": "Dev123!"
           },
           "confirmPassword": {
             "type": "string",
-            "example": "Dev123"
+            "example": "Dev123!"
           }
         },
         "xml": {
@@ -194,7 +207,7 @@
         "properties": {
           "code": {
             "type": "string",
-            "example": "abcdef"
+            "example": "xxxxxx"
           }
         },
         "xml": {
